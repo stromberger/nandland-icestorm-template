@@ -2,7 +2,7 @@ space = $(noop) $(noop)
 
 #syntesis
 out/synth.blif: src/*.v
-	yosys -p "read_verilog $(subst $(space),; read_verilog ,$^); synth_ice40 -blif out/synth.blif"
+	yosys -p "read_verilog src/main.v; synth_ice40 -blif out/synth.blif"
 
 # route & place
 out/routing.txt: out/synth.blif
