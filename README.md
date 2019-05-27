@@ -6,7 +6,7 @@ A Makefile based project template for developing applications with the Nandland 
 Clone this repository
 
 ```bash
-git clone https://github.com/stromberger/nandland-icestorm-template.git
+git clone https://github.com/stromberger/nandland-icestorm-template.git example-project
 ```
 Build the project
 ```bash
